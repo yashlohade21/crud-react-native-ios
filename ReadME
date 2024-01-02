@@ -1,0 +1,71 @@
+# React Native Firebase Notes App
+
+A simple note-taking app built with React Native and Firebase.
+
+## Table of Contents
+
+- [Installation](#installation)
+- [Firebase Configuration](#firebase-configuration)
+- [Usage](#usage)
+- [Features](#features)
+- [Folder Structure](#folder-structure)
+- [Dependencies](#dependencies)
+
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/your-repo.git
+Navigate to the project directory:
+
+bash
+Copy code
+cd your-repo
+Install dependencies:
+
+bash
+Copy code
+npm install
+
+2. Firebase Configuration
+Create a Firebase project on the Firebase Console.
+
+Copy the Firebase configuration object from the Firebase Console.
+
+Replace the placeholder configuration in firebase/index.js with your actual Firebase configuration:
+
+javascript
+Copy code
+const firebaseConfig = {
+  // Your Firebase configuration goes here
+};
+Usage
+Run the app on your local development environment:
+
+bash
+Copy code
+npm start
+Follow the instructions provided by Expo to open the app on an emulator or a physical device.
+
+3. Features
+Create, edit, and delete notes
+Mark notes as checked or unchecked
+Seamless integration with Firebase for data storage
+Folder Structure
+components: React components used in the app.
+auth: Authentication-related components.
+firebase: Firebase configuration and utilities.
+screens: Screens or pages of the app.
+
+4. Dependencies
+@react-navigation/native: Navigation library for React Native.
+@react-navigation/stack: Stack navigator for React Navigation.
+firebase: Firebase SDK for JavaScript.
+react: React library.
+react-native: React Native framework.
+react-native-async-storage/async-storage: Asynchronous storage for React Native.
+react-native-gesture-handler: Gesture handler for React Native.
+react-native-reanimated: React Native library for smooth animations.
+react-native-screens: Native navigation container for React Native.
+expo: Expo development framework for React Native.
