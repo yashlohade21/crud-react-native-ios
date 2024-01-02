@@ -18,14 +18,8 @@ A simple note-taking app built with React Native and Firebase.
    ```bash
    git clone https://github.com/your-username/your-repo.git
 Navigate to the project directory:
-
-bash
-Copy code
 cd your-repo
 Install dependencies:
-
-bash
-Copy code
 npm install
 
 2. Firebase Configuration
@@ -35,20 +29,18 @@ Copy the Firebase configuration object from the Firebase Console.
 
 Replace the placeholder configuration in firebase/index.js with your actual Firebase configuration:
 
-javascript
-Copy code
 const firebaseConfig = {
   // Your Firebase configuration goes here
 };
+
 Usage
 Run the app on your local development environment:
-
-bash
-Copy code
 npm start
+
 Follow the instructions provided by Expo to open the app on an emulator or a physical device.
 
 3. Features
+
 Create, edit, and delete notes
 Mark notes as checked or unchecked
 Seamless integration with Firebase for data storage
